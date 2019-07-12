@@ -1,0 +1,77 @@
+(ExpressProject "arduino_uno"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\arduino_uno.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (R2
+      (FullPartName "R2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName
+         "C:\USERS\USER\DOWNLOADS\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DIODE
+      (FullPartName "DIODE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "C:\USERS\USER\DOWNLOADS\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ZTA
+      (FullPartName "ZTA.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW SPST"
+      (FullPartName "SW SPST.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON6AP
+      (FullPartName "CON6AP.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (ATmega128_0
+      (FullPartName "ATmega128_0.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\ARDUINO_UNO\ARDUINO_UNO.DSN")
+      (DeviceIndex "0"))
+    (ATmega128
+      (FullPartName "ATmega128.Normal")
+      (LibraryName "C:\USERS\USER\DOWNLOADS\AVR.OLB")
+      (DeviceIndex "0"))
+    ("INDUCTOR FERRITE"
+      (FullPartName "INDUCTOR FERRITE.Normal")
+      (LibraryName
+         "C:\USERS\USER\DOWNLOADS\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON4
+      (FullPartName "CON4.Normal")
+      (LibraryName
+         "C:\USERS\USER\DOWNLOADS\VSCODE_ORCAD\CDNS\CDNS\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\arduino_uno.dsn")
+      (Path "Design Resources" ".\arduino_uno.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\arduino_uno.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 317 0 534"))
+      (Tab 0)))
+  (MPSSessionName "user"))

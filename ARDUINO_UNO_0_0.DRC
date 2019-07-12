@@ -1,0 +1,64 @@
+Date and Time : 07/12/19 12:31:14
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING(ORCAP-1831): Unconnected pin U2,OUT 
+                    SCHEMATIC1, PAGE1  (10.10, 2.00) 
+WARNING(ORCAP-1831): Unconnected pin U4,NC/FB 
+                    SCHEMATIC1, PAGE1  (10.30, 3.60) 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections 3 
+                    SCHEMATIC1, PAGE1  (17.90, 8.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections AD5/SCI 
+                    SCHEMATIC1, PAGE1  (16.80, 6.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections 6 
+                    SCHEMATIC1, PAGE1  (18.50, 8.00) 
+WARNING(ORCAP-1600): Net has fewer than two connections AD4/SDA 
+                    SCHEMATIC1, PAGE1  (16.80, 6.20) 
+
+Checking For Unconnected Bus Nets
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+--------------------------------------------------
+Checking Entire Design: ARDUINO_UNO_0_0 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? GND  GND  RESET  7  4  
+                    SCHEMATIC1, PAGE1  (5.00, 6.50) 
+QUESTION(ORCAP-1589): Net has two or more aliases - possible short? +5V  +5V  5  VIN  8  
+                    SCHEMATIC1, PAGE1  (6.70, 7.00) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------
+   LM358_1	                       1	                       U1: B  
+   LM358_2	                       1	                       U2: B  
